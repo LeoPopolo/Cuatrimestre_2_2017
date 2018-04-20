@@ -2,46 +2,60 @@
     2  sudo su -
     3  ifconfig
     4  ping 8.8.8.8
-    5  pwd
-    6  tree
-    7  ls
-    8  pwd
-    9  sudo su
-   10  sudo su -
-   11  pwd
-   12  clear
-   13  pause
-   14  clear
-   15  history
-   16  sudo su
-   17  clear
+    5  mkdir ejemploGit
+    6  cd ejemploGit
+    7  git clone https://github.com/LeoPopolo/PracticaGithub
+    8  cd PracticaGithub
+    9  echo "hola github"> saludar.txt
+   10  ls
+   11  git status
+   12  git add saludar.txt 
+   13  git commit -m "primer commit local"
+   14  git config user.email "leopopologuitarreta@gmail.com"
+   15  git config user.name "LeoPopolo"
+   16  git commit
+   17  git commit -m "mi primer commit local"
    18  ls
-   19  ls .a
-   20  ls -a
-   21  clear
-   22  echo "hola consola"
-   23  ls -l
-   24  echo "hola mundo consola"> saludar.text
-   25  pwd
-   26  clear
-   27  ls -l
-   28  cap
-   29  cat saludar.txt
-   30  cat saludar.text
-   31  echo "borro lo anterior" > saludar.txt
-   32  cat saludar.txt
-   33  echo "continuando con lo anterior" >> saludar.txt
-   34  cat saludar.txt
-   35  md5sum saludar.txt
-   36  sha
-   37  sha sha
-   38  clear
-   39  sha
-   40  sha 256512 sum saludar.txt
-   41  sha256512sum saludar.txt
-   42  sha256sum saludar.txt
-   43  sha256sum saludar.txt >> saludar.txt
-   44  sha256sum saludar.txt >> hash.txt
-   45  cat hash.txt
-   46  sha256sum saludar.txt > hash.txt
-   47  history > historial.txt
+   19* cd ejemploGitr
+   20* lst
+   21  cd PracticaGithub
+   22  ls
+   23  git commit -m "primer commit local"
+   24  git status
+   25  mkdir apuntes
+   26  cd apuntes
+   27  echo "enunciado" >enunciado.txt
+   28  "solucion" >Solucion.txt
+   29  echo "solucion" >Solucion.txt
+   30  ls
+   31  cd..
+   32  cd ..
+   33  git status
+   34  git add apuntes/
+   35  git status
+   36  git commit -m "commit con apuntes"
+   37  cd apuntes
+   38  echo "uoiugyijl"
+   39  ls
+   40  tree
+   41  cd ../../
+   42  ls
+   43  tree
+   44  cd apuntes
+   45  cd ../apuntes/
+   46  cd PracticaGithub/
+   47  cd apuntes/
+   48  echo "algo agregado" >> enunciado.txt
+   49  echo "algo sobreescrito" > Solucion.txt
+   50  tree
+   51  git status
+   52  git add apuntes/
+   53  cd .
+   54  cd ..
+   55  git add apuntes/
+   56  git status
+   57  git commit -m "con cambios en los archivos"
+   58  git log
+   59  git push origin master
+   60  history
+   61  history > "historial.txt"
