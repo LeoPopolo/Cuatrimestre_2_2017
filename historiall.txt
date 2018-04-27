@@ -1,0 +1,32 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  ../../
+    6  ../
+    7  cd ../../
+    8  pwd
+    9  sudo
+   10  sudo su
+   11  tti
+   12  tty
+   13  ls >/dev/pts/6
+   14  cat etc/passwd >/dev/pts/6
+   15  cat /etc/passwd >/dev/pts/6
+   16  tty
+   17  history
+   18  mkdir -p ./Sistemas{Contabilidad/{Archivos,Recursos,Usuarios/usu01},Recursos-humanos/{Archivos,Usuarios/usu02}}
+   19  tree
+   20  mkdir -p ./Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},Recursos-humanos/{Archivos,Usuarios/usu02}}
+   21  tree
+   22  rm -r SistemasContabilidad
+   23  tree
+   24  rm -r SistemasRecursos-humanos
+   25  tree
+   26  echo "" >Sistemas/Contabilidad/Recursos/recur_conta.txt
+   27  tree
+   28  echo "Recurso contable general" >Sistemas/Contabilidad/Recursos/recur_conta.txt
+   29  cat Sistemas/Contabilidad/Recursos/recur_conta.txt> Sistemas/Recursos-humanos/Archivos/recur_conta.txt 
+   30  mv Sistemas/Recursos-humanos/Archivos/recur_conta.txt Sistemas/Recursos-humanos/Archivos/recur_rh_usu02.txt
+   31  tree
+   32  history > historiall.txt
